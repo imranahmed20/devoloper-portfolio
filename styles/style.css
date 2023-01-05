@@ -33,7 +33,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 30px 200px;
+    padding: 30px 200px;
 }
 
 nav ul {
