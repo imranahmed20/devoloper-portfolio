@@ -216,9 +216,14 @@ main {
     text-align: left;
 }
 
-.contact input, textarea{
+.contact input[type="text"], input[type="email"], textarea{
     margin-bottom: 24px;
     border: 0;
     width: 100%;
-    padding: 30px 100px 210px 300px;
+    padding: 20px ;
+}
+
+.contact a{
+    text-decoration: none;
+    margin-left: 10px;
 }
