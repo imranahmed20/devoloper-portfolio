@@ -68,6 +68,7 @@ nav li {
     font-weight: 600;
     font-size: 30px;
     margin-bottom: 20px;
+    
 
 }
 
@@ -140,8 +141,10 @@ main {
 .skill{
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0.08);
+    /* box-shadow: -16px; */
     border-radius: 5px;
     padding: 16px;
+    
 }
 .skill-container{
     display: flex;
@@ -197,4 +200,25 @@ main {
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+
+/* contact styles */
+
+.contact{
+    display: flex;
+    border-radius: 10px;
+    /* padding: 130px 150px; */
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 30px 100px 210px 300px;
 }
